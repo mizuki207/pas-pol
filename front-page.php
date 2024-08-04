@@ -63,22 +63,32 @@
         </a>
     </h1>
 
-    <nav class="m-navigation js-navigation">
-      <ul class="m-navigation__ul">
-        <li><a href="">TOP</a></li>
-        <li><a href="">PRODUCT</a></li>
-        <li><a href="">ABOUT</a></li>
-        <li><a href="">NEWS</a></li>
-        <li><a href="">CONTACT</a></li>
+    <nav class="m-nav js-navigation">
+      <ul class="m-nav__item">
+        <li class="m-nav__list">
+          <a  class="m-nav__link" href="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-pc@2x.webp' ); ?>">TOP</a>
+        </li>
+        <li class="m-nav__list">
+          <a  class="m-nav__link" href="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-pc@2x.webp' ); ?>">PRODUCT</a>
+        </li>
+        <li class="m-nav__list">
+          <a  class="m-nav__link" href="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-pc@2x.webp' ); ?>">ABOUT</a>
+        </li>
+        <li class="m-nav__list">
+          <a  class="m-nav__link" href="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-pc@2x.webp' ); ?>">NEWS</a>
+        </li>
+        <li class="m-nav__list">
+          <a  class="m-nav__link" href="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-pc@2x.webp' ); ?>">CONTACT</a>
+        </li>
       </ul>
-        <div class="m-navigation-toggle js-navigationToggle">MENU</div>
+        <div class="m-nav-toggle js-navigationToggle">MENU</div>
     </nav>
   </header>
-<!-- Main Visual -->
-<div class="l-mainVisual">
-      <!-- Index -->
-    <div class="m-mainVisual js-mainVisual" style="height: 510px;">
-      <div class="m-mainVisual-image js-mainVisual-image" style="opacity: 1;">
+
+<div class="l-main-visual">
+
+  <div class="m-main-visual js-mainVisual" style="height: 1084px;">
+      <div class="m-main-visual-image js-mainVisual-image" style="opacity: 1;">
         <!-- meta slider -->
 <div style="width: 963px; height: 510px; top: 0px; left: -294px;" class="metaslider metaslider-flex metaslider-19 ml-slider nav-hidden">
     
@@ -119,11 +129,11 @@
 </div>
 <!--// meta slider-->      
 </div>
-      <div class="m-mainVisual-logo">PAS-POL -旅のモノづくりブランド-｜TABIPPO</div>
-      <div class="m-mainVisual-arrow"></div>
+      <div class="m-main-visual-logo">PAS-POL -旅のモノづくりブランド-｜TABIPPO</div>
+      <div class="m-main-visual-arrow"></div>
 
       <!-- overlay -->
-      <div class="m-mainVisual-overlay"></div>
+      <div class="m-main-visual-overlay"></div>
     </div>
 
   </div>
