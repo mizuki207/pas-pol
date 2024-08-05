@@ -39,30 +39,28 @@
         g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji))
     }(window,document,window._wpemojiSettings);
   </script>  
-<script src="https://pas-pol.jp/wp-includes/js/wp-emoji-release.min.js?ver=4.9.6" 
-  type="text/javascript" defer="">
-</script>
+  <script src="https://pas-pol.jp/wp-includes/js/wp-emoji-release.min.js?ver=4.9.6" 
+    type="text/javascript" defer="">
+  </script>
 
   <link rel="https://api.w.org/" href="https://pas-pol.jp/wp-json/">
-  <link rel="stylesheet" href="https://pas-pol.jp/wp-content/themes/pas-pol/dist/css/style.css">
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/dist/img/favicon.ico">
 
   <script src="https://pas-pol.jp/wp-content/themes/pas-pol/dist/js/lib.js"></script>
   <script src="https://pas-pol.jp/wp-content/themes/pas-pol/dist/js/script.js"></script>
 
-  <script src="/assets/css/common.css"></script>
-  <?php wp_head(); ?>
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/front.css">
+    <?php wp_head(); ?>
 </head>
 
 <body class="p-index">
 
   <header class="l-header pc-only">
-    <h1 class="m-site-logo">
-        <a class="m-site-logo__link">
+    <h1 class="m-site-logo" href="<?php echo home_url(); ?>">
+        <a class="m-site-logo__link" >
         <img class="pc-site-logo__img" src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-pc@2x.webp' ); ?>" alt="PAS-POL -旅のモノづくりブランド-｜TABIPPO">
         </a>
     </h1>
-
     <nav class="m-nav js-navigation">
       <ul class="m-nav__item">
         <li class="m-nav__list">
@@ -86,169 +84,169 @@
   </header>
 
 <div class="l-main-visual">
-
   <div class="m-main-visual js-mainVisual" style="height: 1084px;">
       <div class="m-main-visual-image js-mainVisual-image" style="opacity: 1;">
-        <!-- meta slider -->
-<div style="width: 963px; height: 510px; top: 0px; left: -294px;" class="metaslider metaslider-flex metaslider-19 ml-slider nav-hidden">
-    
-    <div id="metaslider_container_19">
-        <div id="metaslider_19" class="flexslider">
-            <ul class="slides">
-                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class=""><img src="https://pas-pol.jp/wp-content/uploads/2014/11/main_visual_13-0x0.jpg" height="0" width="0" alt="" class="slider-19 slide-138" draggable="false"></li>
-                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0.343501; z-index: 1;" class=""><img src="https://pas-pol.jp/wp-content/uploads/2014/11/main_visual_2-0x0.jpg" height="0" width="0" alt="" class="slider-19 slide-132" draggable="false"></li>
-                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0.656499; z-index: 2;" class="flex-active-slide"><img src="https://pas-pol.jp/wp-content/uploads/2014/11/main_visual_6-0x0.jpg" height="0" width="0" alt="" class="slider-19 slide-133" draggable="false"></li>
-                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class=""><img src="https://pas-pol.jp/wp-content/uploads/2014/11/main_visual_7-0x0.jpg" height="0" width="0" alt="" class="slider-19 slide-134" draggable="false"></li>
-                <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class=""><img src="https://pas-pol.jp/wp-content/uploads/2014/11/main_visual_111-0x0.jpg" height="0" width="0" alt="" class="slider-19 slide-136" draggable="false"></li>
-            </ul>
+
+        <div style="width: 963px; height: 510px; top: 0px; left: -294px;" class="metaslider metaslider-flex metaslider-19 ml-slider nav-hidden">
+      
+        <div id="metaslider_container_19">
+          <div id="metaslider_19" class="flexslider">
+              <ul class="slides">
+                  <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class=""><img src="https://pas-pol.jp/wp-content/uploads/2014/11/main_visual_13-0x0.jpg" height="0" width="0" alt="" class="slider-19 slide-138" draggable="false"></li>
+                  <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0.343501; z-index: 1;" class=""><img src="https://pas-pol.jp/wp-content/uploads/2014/11/main_visual_2-0x0.jpg" height="0" width="0" alt="" class="slider-19 slide-132" draggable="false"></li>
+                  <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0.656499; z-index: 2;" class="flex-active-slide"><img src="https://pas-pol.jp/wp-content/uploads/2014/11/main_visual_6-0x0.jpg" height="0" width="0" alt="" class="slider-19 slide-133" draggable="false"></li>
+                  <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class=""><img src="https://pas-pol.jp/wp-content/uploads/2014/11/main_visual_7-0x0.jpg" height="0" width="0" alt="" class="slider-19 slide-134" draggable="false"></li>
+                  <li style="display: block; width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; z-index: 1;" class=""><img src="https://pas-pol.jp/wp-content/uploads/2014/11/main_visual_111-0x0.jpg" height="0" width="0" alt="" class="slider-19 slide-136" draggable="false"></li>
+              </ul>
+          </div>
         </div>
-        
+              <script type="text/javascript">
+                  var metaslider_19 = function($) {
+                      $('#metaslider_19').addClass('flexslider'); // theme/plugin conflict avoidance
+                      $('#metaslider_19').flexslider({ 
+                          slideshowSpeed:5000,
+                          animation:"fade",
+                          controlNav:false,
+                          directionNav:false,
+                          pauseOnHover:false,
+                          direction:"horizontal",
+                          reverse:false,
+                          animationSpeed:1500,
+                          prevText:"&lt;",
+                          nextText:"&gt;",
+                          slideshow:true
+                      });
+                  };
+                  var timer_metaslider_19 = function() {
+                      var slider = !window.jQuery ? window.setTimeout(timer_metaslider_19, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_19, 1) : metaslider_19(window.jQuery);
+                  };
+                  timer_metaslider_19();
+              </script>
     </div>
-    <script type="text/javascript">
-        var metaslider_19 = function($) {
-            $('#metaslider_19').addClass('flexslider'); // theme/plugin conflict avoidance
-            $('#metaslider_19').flexslider({ 
-                slideshowSpeed:5000,
-                animation:"fade",
-                controlNav:false,
-                directionNav:false,
-                pauseOnHover:false,
-                direction:"horizontal",
-                reverse:false,
-                animationSpeed:1500,
-                prevText:"&lt;",
-                nextText:"&gt;",
-                slideshow:true
-            });
-        };
-        var timer_metaslider_19 = function() {
-            var slider = !window.jQuery ? window.setTimeout(timer_metaslider_19, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_19, 1) : metaslider_19(window.jQuery);
-        };
-        timer_metaslider_19();
-    </script>
-</div>
-<!--// meta slider-->      
-</div>
-      <div class="m-main-visual-logo">PAS-POL -旅のモノづくりブランド-｜TABIPPO</div>
-      <div class="m-main-visual-arrow"></div>
-
-      <!-- overlay -->
-      <div class="m-main-visual-overlay"></div>
-    </div>
-
   </div>
 
-<!-- Concept -->
+      <div class="m-main-visual-logo">PAS-POL -旅のモノづくりブランド-｜TABIPPO</div>
+      <div class="m-main-visual-arrow"></div>
+      <div class="m-main-visual-overlay"></div>
+  </div>
+</div>
+
+
 <section class="l-section l-section--concept">
   <div class="l-container l-container--narrow">
     <div class="m-concept l-row">
-      <h1 class="m-concept-title m-concept--index">旅に出よう<span style="letter-spacing:-20px;">。</span></h1>
+      <h1 class="m-concept-title m-concept--index">
+        旅に出よう。
+      </h1>
 
       <div class="m-concept-read m-concept-read--index">
-        <p>僕たちが作りたいのは<br>持っているだけで旅に出たくなるモノ。<br>持っているだけでわくわくするモノ。</p>
-        <p>それは新しい時代の “パスポート”<br>僕たちが作るものは、<br>そんな、存在でありたい。</p>
-        <p>そして、人と人が繋がる<br>こんな時代だからこそ、<br>僕たちは、みんなでひとつのモノを<br>作ることを追求したい。</p>
-        <p class="m-concept-siteLogo">PAS-POL</p>
-        <p>それは、自分と世界を繋げる<br>旅のモノづくりブランド</p>
+        <p class="m-concept__text">
+        僕たちが作りたいのは<br>
+        持っているだけで旅に出たくなるモノ。<br>
+        持っているだけでわくわくするモノ。
+        </p>
+        <p class="m-concept__text">
+        それは新しい時代の “パスポート”<br>
+        僕たちが作るものは、<br>
+        そんな、存在でありたい。
+        </p>
+        <p class="m-concept__text">
+        そして、人と人が繋がる<br>
+        こんな時代だからこそ、<br>
+        僕たちは、みんなでひとつのモノを<br>
+        作ることを追求したい。
+        </p>
+        <div class="m-concept__site-logo">
+        <img class="m-concept__img"src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/concept-siteLogo@2x.webp' ); ?>" alt="PAS-POL">
+        </div>
+        <p class="m-concept__text">それは、自分と世界を繋げる<br>
+        旅のモノづくりブランド
+        </p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Product -->
 <section class="l-section l-section--product">
   <div class="l-container l-container--narrow">
-    <div class="m-sectionTitle l-row">
-      <h1 class="m-sectionTitle-text">PRODUCT</h1>
-      <div class="m-sectionTitle-button">
-        <a href="https://pas-pol.jp/product/" class="m-button m-button--more">MORE</a>
+      <div class="m-section__title l-row">
+        <h1 class="m-section__title--text">PRODUCT</h1>
+        <div class="m-section__title--button">
+          <a class="m-button m-button--more" href="https://pas-pol.jp/product/" >MORE</a>
+        </div>
       </div>
-    </div>
 
-    <div class="m-productList l-row">
+    <div class="m-product__list l-row">
       
-      <article class="m-productList-item l-grid-4">
-  <a class="m-productList-item-link" href="https://pas-pol.jp/product/365-worldheritage/">
-    <div class="m-productList-item-image">
-       <img src="https://s3-ap-northeast-1.amazonaws.com/paspol-images/wp-content/uploads/2021/01/wh_thumb2.png" width="484" height="640" alt="">
-    </div>
-    <h2 class="m-productList-item-title">地球一周 365日 世界遺産絶景の旅</h2>
-    <p class="m-productList-item-description"></p>
-  </a>
-</article>
+      <article class="m-product__list-item l-grid-4">
+        <a class="m-product__list-item-link" href="https://pas-pol.jp/product/365-worldheritage/">
+          <div class="m-product__list-item-image">
+          <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/wh_thumb2.webp' ); ?>" alt="プロダクトの画像1">          </div>
+          <h2 class="m-product__list-item-title">地球一周 365日 世界遺産絶景の旅</h2>
+          <p class="m-product__list-item-description"></p>
+        </a>
+      </article>
 
-      
-      <article class="m-productList-item l-grid-4">
-  <a class="m-productList-item-link" href="https://pas-pol.jp/product/365-kyoto/">
-    <div class="m-productList-item-image">
-      <img src="https://s3-ap-northeast-1.amazonaws.com/paspol-images/wp-content/uploads/2020/12/kyoto365_thumnail-1.png" width="484" height="640" alt="">
-    </div>
-    <h2 class="m-productList-item-title">365日 京都 絶景の旅</h2>
-    <p class="m-productList-item-description"></p>
-  </a>
-</article>
+            
+      <article class="m-product__list-item l-grid-4">
+        <a class="m-product__list-item-link" href="https://pas-pol.jp/product/365-kyoto/">
+          <div class="m-product__list-item-image">
+          <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/kyoto365_thumnail-1.webp' ); ?>" alt="プロダクトの画像2">          </div>
+          <h2 class="m-product__list-item-title">365日 京都 絶景の旅</h2>
+          <p class="m-product__list-item-description"></p>
+        </a>
+      </article>
 
-      
-      <article class="m-productList-item l-grid-4">
-  <a class="m-productList-item-link" href="https://pas-pol.jp/product/365-hokkaido-calendar/">
-    <div class="m-productList-item-image">
-      <img src="https://s3-ap-northeast-1.amazonaws.com/paspol-images/wp-content/uploads/2020/09/banner_thumb1.png" width="484" height="640" alt="">
-    </div>
-    <h2 class="m-productList-item-title">365日 北海道 絶景日めくりカレンダー</h2>
-    <p class="m-productList-item-description"></p>
-  </a>
-</article>
+            
+      <article class="m-product__list-item l-grid-4">
+        <a class="m-product__list-item-link" href="https://pas-pol.jp/product/365-hokkaido-calendar/">
+          <div class="m-product__list-item-image">
+          <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/banner_thumb1.webp' ); ?>" alt="プロダクトの画像1">          </div>
+          <h2 class="m-product__list-item-title">365日 北海道 絶景日めくりカレンダー</h2>
+          <p class="m-product__list-item-description"></p>
+        </a>
+      </article>
 
-      
-      <article class="m-productList-item l-grid-4">
-  <a class="m-productList-item-link" href="https://pas-pol.jp/product/365-hokkaido/">
-    <div class="m-productList-item-image">
-       <img src="https://s3-ap-northeast-1.amazonaws.com/paspol-images/wp-content/uploads/2020/08/thumb_gokkaido.png" width="484" height="640" alt="">
-    </div>
-    <h2 class="m-productList-item-title">365日 北海道 絶景の旅</h2>
-    <p class="m-productList-item-description"></p>
-  </a>
-</article>
+            
+      <article class="m-product__list-item l-grid-4">
+        <a class="m-product__list-item-link" href="https://pas-pol.jp/product/365-hokkaido/">
+          <div class="m-product__list-item-image">
+          <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/thumb_hokkaido.webp' ); ?>" alt="プロダクトの画像1">          </div>
+          <h2 class="m-product__list-item-title">365日 北海道 絶景の旅</h2>
+          <p class="m-product__list-item-description"></p>
+      </article>
 
-      
-      <article class="m-productList-item l-grid-4">
-  <a class="m-productList-item-link" href="https://pas-pol.jp/product/world-festival-guide/">
-    <div class="m-productList-item-image">
-       <img src="https://s3-ap-northeast-1.amazonaws.com/paspol-images/wp-content/uploads/2019/05/thumb_fes.png" width="484" height="640" alt="">
-    </div>
-    <h2 class="m-productList-item-title">The World Festival Guide -海外の音楽フェス完全ガイド-</h2>
-    <p class="m-productList-item-description"></p>
-  </a>
-</article>
+            
+      <article class="m-product__list-item l-grid-4">
+        <a class="m-product__list-item-link" href="https://pas-pol.jp/product/world-festival-guide/">
+          <div class="m-product__list-item-image">
+          <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/thumb_fes.webp' ); ?>" alt="プロダクトの画像1">          </div>
+          <h2 class="m-product__list-item-title">The World Festival Guide -海外の音楽フェス完全ガイド-</h2>
+          <p class="m-product__list-item-description"></p>
+        </a>
+      </article>
 
-      
-      <article class="m-productList-item l-grid-4">
-  <a class="m-productList-item-link" href="https://pas-pol.jp/product/2000book/">
-    <div class="m-productList-item-image">
-       <img src="https://s3-ap-northeast-1.amazonaws.com/paspol-images/wp-content/uploads/2018/11/banner_%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB21.png" width="484" height="640" alt="">
-    </div>
-    <h2 class="m-productList-item-title">この世界で死ぬまでにしたいこと2000</h2>
-    <p class="m-productList-item-description"></p>
-  </a>
-</article>
-
-      
-      <div class="m-productList-more l-grid-12">
-        <a href="https://pas-pol.jp/product/" class="m-button m-button--more">MORE</a>
-      </div>
+            
+      <article class="m-product__list-item l-grid-4">
+        <a class="m-product__list-item-link" href="https://pas-pol.jp/product/2000book/">
+          <div class="m-product__list-item-image">
+          <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/banner_サムネイル21.webp' ); ?>" alt="プロダクトの画像1">          </div>
+          <h2 class="m-product__list-item-title">この世界で死ぬまでにしたいこと2000</h2>
+          <p class="m-product__list-item-description"></p>
+        </a>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- News -->
 <section class="l-section l-section--news">
   <div class="l-container l-container--narrow">
-    <div class="m-sectionTitle l-row">
-      <h1 class="m-sectionTitle-text">NEWS</h1>
-      <div class="m-sectionTitle-button">
-        <a href="https://pas-pol.jp/news/" class="m-button m-button--more">MORE</a>
+  <div class="m-section__title l-row">
+        <h1 class="m-section__title--text">NEWS</h1>
+        <div class="m-section__title--button">
+          <a class="m-button m-button--more" href="https://pas-pol.jp/news/" >MORE</a>
+        </div>
       </div>
-    </div>
 
     <div class="m-newsList l-row">
       
@@ -343,7 +341,7 @@
   </div>
 </section>
 
-<!-- Share -->
+
 <div class="l-share">
   <div class="l-container l-container--full">
     <div class="m-backTop js-backTop">backTop</div>
@@ -365,7 +363,6 @@
   </div>
 </div>
 
-<!-- Footer Nav -->
 <div class="l-footerNav">
   <div class="l-container l-container--full">
     <nav class="m-navigation m-navigation--center">
@@ -379,7 +376,7 @@
   </div>
 </div>
 
-<!-- Footer -->
+
 <footer class="l-footer">
   <div class="l-container l-container--narrow">
     <h1 class="m-siteLogo m-siteLogo--small">
