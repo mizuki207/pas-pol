@@ -177,7 +177,6 @@
       </div>
 
     <div class="m-product__list l-row">
-      
       <article class="m-product__list-item l-grid-4">
         <a class="m-product__list-item-link" href="https://pas-pol.jp/product/365-worldheritage/">
           <div class="m-product__list-item-image">
@@ -186,8 +185,6 @@
           <p class="m-product__list-item-description"></p>
         </a>
       </article>
-
-            
       <article class="m-product__list-item l-grid-4">
         <a class="m-product__list-item-link" href="https://pas-pol.jp/product/365-kyoto/">
           <div class="m-product__list-item-image">
@@ -196,8 +193,6 @@
           <p class="m-product__list-item-description"></p>
         </a>
       </article>
-
-            
       <article class="m-product__list-item l-grid-4">
         <a class="m-product__list-item-link" href="https://pas-pol.jp/product/365-hokkaido-calendar/">
           <div class="m-product__list-item-image">
@@ -206,8 +201,6 @@
           <p class="m-product__list-item-description"></p>
         </a>
       </article>
-
-            
       <article class="m-product__list-item l-grid-4">
         <a class="m-product__list-item-link" href="https://pas-pol.jp/product/365-hokkaido/">
           <div class="m-product__list-item-image">
@@ -215,8 +208,6 @@
           <h2 class="m-product__list-item-title">365日 北海道 絶景の旅</h2>
           <p class="m-product__list-item-description"></p>
       </article>
-
-            
       <article class="m-product__list-item l-grid-4">
         <a class="m-product__list-item-link" href="https://pas-pol.jp/product/world-festival-guide/">
           <div class="m-product__list-item-image">
@@ -225,8 +216,6 @@
           <p class="m-product__list-item-description"></p>
         </a>
       </article>
-
-            
       <article class="m-product__list-item l-grid-4">
         <a class="m-product__list-item-link" href="https://pas-pol.jp/product/2000book/">
           <div class="m-product__list-item-image">
@@ -241,102 +230,98 @@
 
 <section class="l-section l-section--news">
   <div class="l-container l-container--narrow">
-  <div class="m-section__title l-row">
+    <div class="m-section__title l-row">
         <h1 class="m-section__title--text">NEWS</h1>
         <div class="m-section__title--button">
           <a class="m-button m-button--more" href="https://pas-pol.jp/news/" >MORE</a>
         </div>
-      </div>
-
-    <div class="m-newsList l-row">
-      
-      <article class="m-newsList-item">
-  <a href="https://pas-pol.jp/2022/07/summer_postcard_2023/" class="m-newsList-item-link l-row">
-    <div class="m-newsList-item-image l-grid-5">
-              <img src="https://s3-ap-northeast-1.amazonaws.com/paspol-images/wp-content/uploads/2022/07/summer2023_01.jpg" width="800" height="365" alt="">
-          </div>
-    <div class="m-newsList-item-text l-grid-7">
-      <h2 class="m-newsList-item-title">2023年度夏の絶景ポストカード制作スタート！夏景色の写真を大募集！</h2>
-      <p class="m-newsList-item-date"><time pubdate="2022-07-22">2022.7.22</time></p>
-      <p class="m-newsList-item-description">こんにちは、TABIPPOの小井詰です。 東急ハンズやLOFTにて販売されている、旅好きな方とつくってきたPAS-POLの夏の絶景ポストカード２０２３夏制作をスタートしました。 2023年度も今年同様、四季に合わせて募集をしていきます。年間を通して募集をするので、彩り豊かな四季折々の写真のご応募をお待ちしております。今回は夏の風景写真を募集いたします！ 現在の予定では以下のスケジュールで募集を行い（変更の可能性あり）、夏以降募集の際にはまた、改めてお知らせをいたします。 &nbsp; 写真募集年 ...</p>
     </div>
-  </a>
-</article>
 
-      
-      <article class="m-newsList-item">
-  <a href="https://pas-pol.jp/2022/04/spring_postcard_2023/" class="m-newsList-item-link l-row">
-    <div class="m-newsList-item-image l-grid-5">
-              <img src="https://s3-ap-northeast-1.amazonaws.com/paspol-images/wp-content/uploads/2022/04/spring2023-01.jpg" width="800" height="365" alt="">
+    <div class="m-news__list">
+        <article class="m-news__list--item">
+          <a class="m-news__list--item-link l-row" href="https://pas-pol.jp/2022/07/summer_postcard_2023/">
+          <div class="m-news__list--item-inner">
+            <div class="m-news__list--item-image l-grid-5">
+                <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/summer2023_01.webp' ); ?>" alt="">
+            </div>
+            <div class="m-news__list--item-text l-grid-7">
+              <h2 class="m-news__list--item-title">2023年度夏の絶景ポストカード制作スタート！夏景色の写真を大募集！</h2>
+              <p class="m-news__list--item-date"><time pubdate="2022-07-22">2022.7.22</time></p>
+              <p class="m-news__list--item-description">こんにちは、TABIPPOの小井詰です。 東急ハンズやLOFTにて販売されている、旅好きな方とつくってきたPAS-POLの夏の絶景ポストカード２０２３夏制作をスタートしました。 2023年度も今年同様、四季に合わせて募集をしていきます。年間を通して募集をするので、彩り豊かな四季折々の写真のご応募をお待ちしております。今回は夏の風景写真を募集いたします！ 現在の予定では以下のスケジュールで募集を行い（変更の可能性あり）、夏以降募集の際にはまた、改めてお知らせをいたします。 &nbsp; 写真募集年 ...</p>
+            </div>
           </div>
-    <div class="m-newsList-item-text l-grid-7">
-      <h2 class="m-newsList-item-title">【2023年度も制作決定】人気の絶景ポストカード「春」の写真を大募集！</h2>
-      <p class="m-newsList-item-date"><time pubdate="2022-04-11">2022.4.11</time></p>
-      <p class="m-newsList-item-description">こんにちは、TABIPPOの小井詰です。 東急ハンズやLOFTにて販売されている、旅好きな方とつくってきたPAS-POLの絶景ポストカードの春編、2023年度も制作が決まりました！ 2023年度も今年同様、四季に合わせて募集をしていきます。年間を通して募集をするので、彩り豊かな四季折々の写真のご応募をお待ちしております。まずは、春の風景写真を募集いたします！ 現在の予定では以下のスケジュールで募集を行い（変更の可能性あり）、春以降募集の際にはまた、改めてお知らせをいたします。 &nbsp; 写真 ...</p>
-    </div>
-  </a>
-</article>
-
-      
-      <article class="m-newsList-item">
-  <a href="https://pas-pol.jp/2021/11/postcard-2021-winter/" class="m-newsList-item-link l-row">
-    <div class="m-newsList-item-image l-grid-5">
-              <img src="https://s3-ap-northeast-1.amazonaws.com/paspol-images/wp-content/uploads/2021/11/winter_postcard.jpg" width="800" height="365" alt="">
+          </a>
+        </article>
+        <article class="m-news__list--item">
+          <a class="m-news__list--item-link l-row" href="https://pas-pol.jp/2022/04/spring_postcard_2023/">
+          <div class="m-news__list--item-inner">
+            <div class="m-news__list--item-image l-grid-5">
+                <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/spring2023-01.webp' ); ?>" alt="">
+            </div>
+            <div class="m-news__list--item-text l-grid-7">
+              <h2 class="m-news__list--item-title">【2023年度も制作決定】人気の絶景ポストカード「春」の写真を大募集！</h2>
+              <p class="m-news__list--item-date"><time pubdate="2022-04-11">2022.4.11</time></p>
+              <p class="m-news__list--item-description">こんにちは、TABIPPOの小井詰です。 東急ハンズやLOFTにて販売されている、旅好きな方とつくってきたPAS-POLの絶景ポストカードの春編、2023年度も制作が決まりました！ 2023年度も今年同様、四季に合わせて募集をしていきます。年間を通して募集をするので、彩り豊かな四季折々の写真のご応募をお待ちしております。まずは、春の風景写真を募集いたします！ 現在の予定では以下のスケジュールで募集を行い（変更の可能性あり）、春以降募集の際にはまた、改めてお知らせをいたします。 &nbsp; 写真 ...</p>
+            </div>
           </div>
-    <div class="m-newsList-item-text l-grid-7">
-      <h2 class="m-newsList-item-title">人気の絶景ポストカード制作中！「クリスマス」の絶景写真を大募集します</h2>
-      <p class="m-newsList-item-date"><time pubdate="2021-11-29">2021.11.29</time></p>
-      <p class="m-newsList-item-description">こんにちは、TABIPPOの小井詰です。 東急ハンズやLOFTにて販売されている、旅好きな方とつくってきたPAS-POLの絶景ポストカードですが、2021年より制作が再開いたしました。 photo by PAS-POL 今回の制作は、四季に合わせて募集をしています。年間を通して募集をするので、彩り豊かな四季折々の写真のご応募をお待ちしております。第四弾は、クリスマスの風景写真を募集いたします！ 現在、春、夏と募集が終了し、秋の絶景写真の募集を延長しております！そして最後の募集となるのが、冬の絶景 ...</p>
-    </div>
-  </a>
-</article>
-
-      
-      <article class="m-newsList-item">
-  <a href="https://pas-pol.jp/2021/10/postcard-2021-autumn/" class="m-newsList-item-link l-row">
-    <div class="m-newsList-item-image l-grid-5">
-              <img src="https://s3-ap-northeast-1.amazonaws.com/paspol-images/wp-content/uploads/2021/10/th_autumn_postcard.jpg" width="800" height="365" alt="">
+          </a>
+        </article>
+        <article class="m-news__list--item">
+          <a class="m-news__list--item-link l-row" href="https://pas-pol.jp/2021/11/postcard-2021-winter/">
+          <div class="m-news__list--item-inner">
+            <div class="m-news__list--item-image l-grid-5">
+              <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/winter_postcard.webp' ); ?>" alt="">
+            </div>
+            <div class="m-news__list--item-text l-grid-7">
+              <h2 class="m-news__list--item-title">人気の絶景ポストカード制作中！「クリスマス」の絶景写真を大募集します</h2>
+              <p class="m-news__list--item-date"><time pubdate="2021-11-29">2021.11.29</time></p>
+              <p class="m-news__list--item-description">こんにちは、TABIPPOの小井詰です。 東急ハンズやLOFTにて販売されている、旅好きな方とつくってきたPAS-POLの絶景ポストカードですが、2021年より制作が再開いたしました。 photo by PAS-POL 今回の制作は、四季に合わせて募集をしています。年間を通して募集をするので、彩り豊かな四季折々の写真のご応募をお待ちしております。第四弾は、クリスマスの風景写真を募集いたします！ 現在、春、夏と募集が終了し、秋の絶景写真の募集を延長しております！そして最後の募集となるのが、冬の絶景 ...</p>
+            </div>
           </div>
-    <div class="m-newsList-item-text l-grid-7">
-      <h2 class="m-newsList-item-title">【募集期間延長】人気の絶景ポストカード製作中！日本の「秋」の絶景を大募集します</h2>
-      <p class="m-newsList-item-date"><time pubdate="2021-10-12">2021.10.12</time></p>
-      <p class="m-newsList-item-description">こんにちは、TABIPPOの中　美砂希です。 東急ハンズやLOFTにて販売されている、旅好きな方とつくってきたPAS-POLの絶景ポストカードですが、2021年より制作が再開いたしました。 photo by PAS-POL 今回の制作は、四季に合わせて募集をしています。年間を通して募集をするので、彩り豊かな四季折々の写真のご応募をお待ちしております。第三弾は、秋の風景写真を募集いたします！ 現在の予定では以下のスケジュールで募集を行い（変更の可能性あり）、秋以降募集の際にはまた、改めてお知らせを ...</p>
-    </div>
-  </a>
-</article>
-
-      
-      <article class="m-newsList-item">
-  <a href="https://pas-pol.jp/2021/09/paspol-ec-end/" class="m-newsList-item-link l-row">
-    <div class="m-newsList-item-image l-grid-5">
-              <img src="https://s3-ap-northeast-1.amazonaws.com/paspol-images/wp-content/uploads/2021/09/paspol_closing-2.jpg" width="800" height="365" alt="">
+          </a>
+        </article>
+        <article class="m-news__list--item">
+          <a class="m-news__list--item-link l-row" href="https://pas-pol.jp/2021/10/postcard-2021-autumn/">
+          <div class="m-news__list--item-inner">
+            <div class="m-news__list--item-image l-grid-5">
+                <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/th_autumn_postcard.webp' ); ?>" alt="">
+            </div>
+            <div class="m-news__list--item-text l-grid-7">
+              <h2 class="m-news__list--item-title">【募集期間延長】人気の絶景ポストカード製作中！日本の「秋」の絶景を大募集します</h2>
+              <p class="m-news__list--item-date"><time pubdate="2021-10-12">2021.10.12</time></p>
+              <p class="m-news__list--item-description">こんにちは、TABIPPOの中　美砂希です。 東急ハンズやLOFTにて販売されている、旅好きな方とつくってきたPAS-POLの絶景ポストカードですが、2021年より制作が再開いたしました。 photo by PAS-POL 今回の制作は、四季に合わせて募集をしています。年間を通して募集をするので、彩り豊かな四季折々の写真のご応募をお待ちしております。第三弾は、秋の風景写真を募集いたします！ 現在の予定では以下のスケジュールで募集を行い（変更の可能性あり）、秋以降募集の際にはまた、改めてお知らせを ...</p>
+            </div>
           </div>
-    <div class="m-newsList-item-text l-grid-7">
-      <h2 class="m-newsList-item-title">【セール情報あり】PAS-POLオンラインショップ閉店のお知らせ</h2>
-      <p class="m-newsList-item-date"><time pubdate="2021-09-15">2021.9.15</time></p>
-      <p class="m-newsList-item-description">いつも、PAS-POLのサイトをご覧いただきありがとうございます。 &nbsp; 突然ではございますが、この度2021年9月30日をもちまして、PAS-POL公式オンラインショップを閉鎖する運びとなりました。（※PAS-POLのブランドがなくなるわけではありません） &nbsp; 2015年の夏からスタートしたオンラインショップですが、旅が好きな方、TABIPPOを知ってくださってる方、ライフスタイルにこだわりたい方、などたくさんの方にPAS-POLの商品を公式ショップにて購入いただいたこと、と ...</p>
-    </div>
-  </a>
-</article>
-
-      
-      <article class="m-newsList-item">
-  <a href="https://pas-pol.jp/2021/07/postcard-2021-summer/" class="m-newsList-item-link l-row">
-    <div class="m-newsList-item-image l-grid-5">
-              <img src="https://s3-ap-northeast-1.amazonaws.com/paspol-images/wp-content/uploads/2021/07/summer_postcard-2.jpg" width="800" height="365" alt="">
+          </a>
+        </article>
+        <article class="m-news__list--item">
+          <a class="m-news__list--item-link l-row" href="https://pas-pol.jp/2021/09/paspol-ec-end/">
+          <div class="m-news__list--item-inner">
+            <div class="m-news__list--item-image l-grid-5">
+              <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/paspol_closing-2.webp' ); ?>" alt="">
+            </div>
+            <div class="m-news__list--item-text l-grid-7">
+              <h2 class="m-news__list--item-title">【セール情報あり】PAS-POLオンラインショップ閉店のお知らせ</h2>
+              <p class="m-news__list--item-date"><time pubdate="2021-09-15">2021.9.15</time></p>
+              <p class="m-news__list--item-description">いつも、PAS-POLのサイトをご覧いただきありがとうございます。 &nbsp; 突然ではございますが、この度2021年9月30日をもちまして、PAS-POL公式オンラインショップを閉鎖する運びとなりました。（※PAS-POLのブランドがなくなるわけではありません） &nbsp; 2015年の夏からスタートしたオンラインショップですが、旅が好きな方、TABIPPOを知ってくださってる方、ライフスタイルにこだわりたい方、などたくさんの方にPAS-POLの商品を公式ショップにて購入いただいたこと、と ...</p>
+            </div>
           </div>
-    <div class="m-newsList-item-text l-grid-7">
-      <h2 class="m-newsList-item-title">【募集期間延長】人気の絶景ポストカード製作中！日本の「夏」の絶景を大募集します</h2>
-      <p class="m-newsList-item-date"><time pubdate="2021-07-05">2021.7.5</time></p>
-      <p class="m-newsList-item-description">こんにちは、TABIPPOの中　美砂希です。 東急ハンズやLOFTにて販売されている、旅好きな方とつくってきたPAS-POLの絶景ポストカードですが、制作が再開しましたのでお知らせいたします。 photo by PAS-POL 今回の制作は、四季に合わせて募集をしています。年間を通して募集をするので、彩り豊かな四季折々の写真のご応募をお待ちしております。第二弾は、夏の風景写真を募集いたします！ 現在の予定では以下のスケジュールで募集を行い（変更の可能性あり）、夏以降募集の際にはまた、改めてお知ら ...</p>
-    </div>
-  </a>
-</article>
-
-      
-      <div class="m-newsList-more l-grid-12">
-        <a href="https://pas-pol.jp/news/" class="m-button m-button--more">MORE</a>
-      </div>
+          </a>
+        </article>
+        <article class="m-news__list--item">
+          <a class="m-news__list--item-link l-row" href="https://pas-pol.jp/2021/07/postcard-2021-summer/">
+            <div class="m-news__list--item-inner">
+              <div class="m-news__list--item-image l-grid-5">
+                <img class="" src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/summer2023_01.webp'); ?>" alt="">
+              </div>
+              <div class="m-news__list--item-text l-grid-7">
+                <h2 class="m-news__list--item-title">【募集期間延長】人気の絶景ポストカード製作中！日本の「夏」の絶景を大募集します</h2>
+                <p class="m-news__list--item-date"><time pubdate="2021-07-05">2021.7.5</time></p>
+                <p class="m-news__list--item-description">こんにちは、TABIPPOの中　美砂希です。 東急ハンズやLOFTにて販売されている、旅好きな方とつくってきたPAS-POLの絶景ポストカードですが、制作が再開しましたのでお知らせいたします。 photo by PAS-POL 今回の制作は、四季に合わせて募集をしています。年間を通して募集をするので、彩り豊かな四季折々の写真のご応募をお待ちしております。第二弾は、夏の風景写真を募集いたします！ 現在の予定では以下のスケジュールで募集を行い（変更の可能性あり）、夏以降募集の際にはまた、改めてお知ら ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
     </div>
   </div>
 </section>
@@ -344,34 +329,42 @@
 
 <div class="l-share">
   <div class="l-container l-container--full">
-    <div class="m-backTop js-backTop">backTop</div>
+    <div class="m-back-top js-backTop">backTop</div>
 
-    <div class="m-shareButtons">
-      <div class="m-shareButtons-item">
+    <div class="m-share-buttons">
+      <div class="m-share-buttons-item">
         <a class="m-button m-button--facebook" href="https://www.facebook.com/share.php?u=https://pas-pol.jp" target="_blank" onclick="ga('send', 'event', 'share_facebook', 'click', 'https://pas-pol.jp');">Share on Facebook</a>
       </div>
-      <div class="m-shareButtons-item">
+      <div class="m-share-buttons-item">
         <a class="m-button m-button--twitter" href="https://twitter.com/intent/tweet?text=PAS-POL+-%E6%97%85%E3%81%AE%E3%83%A2%E3%83%8E%E3%81%A5%E3%81%8F%E3%82%8A%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89-%EF%BD%9C%E2%BE%83%E5%88%86%E3%81%A8%E4%B8%96%E7%95%8C%E3%82%92%E7%B9%8B%E3%81%92%E3%82%8B%E6%96%B0%E3%81%97%E3%81%84%E6%99%82%E4%BB%A3%E3%81%AE%E3%83%91%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E3%83%A2%E3%83%8E%E4%BD%9C%E3%82%8A%E3%82%92%EF%BD%9C%E4%B8%96%E7%95%8C%E4%B8%80%E5%91%A8%E5%9B%A3%E4%BD%93TABIPPO&amp;url=https://pas-pol.jp&amp;hashtags=tabippo" target="_blank" onclick="ga('send', 'event', 'share_twitter', 'click', 'https://pas-pol.jp');">Share on Twitter</a>
       </div>
-      <div class="m-shareButtons-item">
+      <div class="m-share-buttons-item">
         <a class="m-button m-button--hatena" href="https://b.hatena.ne.jp/add?mode=confirm&amp;url=https://pas-pol.jp" target="_blank" onclick="ga('send', 'event', 'share_hatebu', 'click', 'https://pas-pol.jp');">Hatena Bookmark</a>
-      </div>
-      <div class="m-shareButtons-item m-shareButtons-item--line">
-        <a class="m-button m-button--line" href="https://line.me/R/msg/text/?PAS-POL -旅のモノづくりブランド-｜TABIPPO%0D%0Ahttps://pas-pol.jp" onclick="ga('send', 'event', 'share_line', 'click', 'https://pas-pol.jp');">Send to LINE</a>
       </div>
     </div>
   </div>
 </div>
 
-<div class="l-footerNav">
+<div class="l-footer-nav">
   <div class="l-container l-container--full">
     <nav class="m-navigation m-navigation--center">
-      <ul>
-        <li><a href="https://pas-pol.jp">TOP</a></li>
-<li><a href="https://pas-pol.jp/product/">PRODUCT</a></li>
-<li><a href="https://pas-pol.jp/about/">ABOUT</a></li>
-<li><a href="https://pas-pol.jp/news/">NEWS</a></li>
-<li><a href="https://pas-pol.jp/contact/">CONTACT</a></li>      </ul>
+      <ul class="m-navigation--item">
+        <li class="m-navigation--list">
+        <a class="m-navigation--link" href="">TOP</a>
+        </li>
+        <li class="m-navigation--list">
+        <a class="m-navigation--link" href="">PRODUCT</a>
+        </li>
+        <li class="m-navigation--list">
+        <a class="m-navigation--link" href="">ABOUT</a>
+        </li>
+        <li class="m-navigation--list">
+        <a class="m-navigation--link" href="">NEWS</a>
+        </li>
+        <li class="m-navigation--list">
+        <a class="m-navigation--link" href="">CONTACT</a>
+        </li>      
+      </ul>
     </nav>
   </div>
 </div>
@@ -379,12 +372,15 @@
 
 <footer class="l-footer">
   <div class="l-container l-container--narrow">
-    <h1 class="m-siteLogo m-siteLogo--small">
-      <a href="https://pas-pol.jp">PAS-POL -旅のモノづくりブランド-｜TABIPPO</a>
-    </h1>
-
-    <div class="m-copyRight">
-      <small>Copyright © 2024 PAS-POL -旅のモノづくりブランド-｜TABIPPO All rights reserved.</small>
+    <div class="l-footer-inner">
+      <h1 class="m-site-logo m-site-logo--small">
+          <a href="<?php echo home_url(); ?>">
+            <img class="m-site-logo__img" src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-small@2x.webp' ); ?>" alt="PAS-POL -旅のモノづくりブランド-｜TABIPPO">
+          </a>
+        </h1>
+        <div class="m-copy-right">
+          <small class="m-copy-small">Copyright © 2024 PAS-POL -旅のモノづくりブランド-｜TABIPPO All rights reserved.</small>
+        </div>
     </div>
   </div>
 </footer>

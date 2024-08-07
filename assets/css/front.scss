@@ -39,6 +39,11 @@ $computer: 900px;
   text-indent: 100%;
   white-space: nowrap;
  }
+
+ &__img {
+  width: 90px;
+  height: 89px;
+ }
 }
 
 .pc-site-logo__img {
@@ -347,19 +352,30 @@ $computer: 900px;
  background-color: #F6F6F6;
 
  // ニュースの各リストスタイル
- .m-newsList {
+ .m-news__list {
+  margin-top: 60px;
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 60px;
 
-  &-item {
-   background-color: #fff;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  &--item {
    overflow: hidden;
    border-radius: 5px;
    display: flex;
    flex-direction: column;
-   width: calc(33.333% - 1rem);
+   width: 846px;
+
+   &-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+   }
+
+   &-description {
+    flex: 1 1 auto;
+    font-size: 12px;
+    color: #666;
+   }
 
    &-link {
     display: flex;
@@ -367,14 +383,19 @@ $computer: 900px;
     height: 100%;
 
     &:hover {
-     .m-newsList-item-image img {
+     .m-news__list--item-image img {
       transform: scale(1.05);
      }
 
-     .m-newsList-item-text {
+     .m-news__list--item-text {
       background-color: #f0f0f0;
      }
     }
+   }
+
+   &-inner {
+    display: flex;
+    gap: 5%;
    }
 
    &-image {
@@ -382,7 +403,8 @@ $computer: 900px;
     overflow: hidden;
 
     img {
-     width: 100%;
+     width: 322px;
+     height: 181px;
      height: auto;
      transition: transform 0.3s ease;
     }
@@ -390,45 +412,148 @@ $computer: 900px;
 
    &-text {
     flex: 1 1 auto;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 
-    &-title {
-     font-size: 1.2rem;
-     font-weight: bold;
-     margin-bottom: 0.5rem;
-    }
-
     &-date {
-     font-size: 0.9rem;
+     font-size: 12px;
      color: #999;
-    }
-
-    &-description {
-     flex: 1 1 auto;
-     font-size: 1rem;
-     color: #666;
     }
    }
   }
  }
+}
 
- .m-newsList-more {
-  text-align: center;
-  margin-top: 2rem;
+// シェアのスタイル
 
-  .m-button--more {
-   background-color: #0073e6;
-   color: #fff;
-   padding: 0.75rem 1.5rem;
-   border-radius: 5px;
-   transition: background-color 0.3s ease;
+.l-share {
+ background-color: #fff;
+ position: relative;
+ padding: 35px 0;
+}
 
-   &:hover {
-    background-color: #005bb5;
-   }
-  }
+.l-container--full {
+ max-width: 100%;
+ padding: 0;
+}
+
+.m-back-top {
+ position: absolute;
+ top: 0;
+ left: 50%;
+ margin-left: -25px;
+ margin-top: -25px;
+ overflow: hidden;
+ text-indent: 100%;
+ white-space: nowrap;
+ background: url(../images/backTop@2x.webp) no-repeat;
+ background-size: 50px 50px;
+ width: 50px;
+ height: 50px;
+ cursor: pointer;
+}
+
+.m-share-buttons {
+ display: flex;
+ text-align: center;
+ justify-content: center;
+
+ &-item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1rem;
+  letter-spacing: normal;
+  word-spacing: normal;
+  margin: 0 15px;
+ }
+}
+
+.m-button {
+ display: inline-block;
+ width: 162px;
+ height: 46px;
+ line-height: 48px;
+ font-size: 14px;
+ color: #13191b;
+ border: 1px solid #13191b;
+ text-align: center;
+ font-family: "Gill Sans Std Book", sans-serif;
+ letter-spacing: .1em;
+
+ &--facebook {
+  color: #4871a9;
+  border-color: #4871a9;
+ }
+
+ &--twitter {
+  color: #70bdd3;
+  border-color: #70bdd3;
+ }
+
+ &--hatena {
+  color: #70bdd3;
+  border-color: #70bdd3;
+ }
+}
+
+// 
+.l-container--full {
+ max-width: 100%;
+ padding: 0;
+}
+
+.l-footer-nav {
+ background-color: #939899;
+ padding: 30px 0;
+ text-align: center;
+}
+
+.m-navigation {
+ &--item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0;
+  letter-spacing: -1em;
+  word-spacing: -1em;
+ }
+
+ &--list {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1rem;
+  letter-spacing: normal;
+  word-spacing: normal;
+  margin-left: 40px;
+ }
+
+ &--link {
+  color: #fff;
+  font-size: 14px;
+  font-family: "Gill Sans Std Book", sans-serif;
+  letter-spacing: 0.1em;
+  padding-bottom: 8px;
+  border-bottom: 2px solid transparent;
+ }
+}
+
+.l-footer {
+ background-color: #656c6e;
+ padding: 35px 0;
+
+ &-inner {
+  display: flex;
+  justify-content: space-between;
+ }
+}
+
+.m-copy {
+ &-right {
+  margin-top: 35px;
+ }
+
+ &-small {
+  color: #fff;
  }
 }
