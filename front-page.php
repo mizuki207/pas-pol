@@ -1,87 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-  <meta charset="UTF-8">
-  <title>PAS-POL -旅のモノづくりブランド-｜TABIPPO</title>
-  <meta name="description" content="PAS-POLはTABIPPOのモノづくりブランドです。 ⾃分と世界を繋げる新しい時代のパスポートのようなモノを作りたいと思い、PAS-POLという名前をつけました。">
-  <meta name="robots" content="index,follow">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-  <meta property="fb:app_id" content="450419765129931">
-  <meta property="og:url" content="https://pas-pol.jp">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="PAS-POL -旅のモノづくりブランド-｜TABIPPO">
-  <meta property="og:locale" content="ja_JP">
-  <meta property="og:image" content="https://pas-pol.jp/wp-content/themes/pas-pol/dist/img/ogp.jpg">
-  <meta property="og:description" content="PAS-POLはTABIPPOのモノづくりブランドです。 ⾃分と世界を繋げる新しい時代のパスポートのようなモノを作りたいと思い、PAS-POLという名前をつけました。">
-  <meta property="og:site_name" content="PAS-POL -旅のモノづくりブランド-｜TABIPPO">
-
-  <meta name="twitter:card" value="summary_large_image">
-  <link rel="dns-prefetch" href="//s.w.org">
-  <!-- <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-Y41FM4JJD3&amp;cx=c&amp;_slc=1"></script>
-  <script src="https://connect.facebook.net/ja_JP/all.js?hash=e4fc7078c1f73b4c366b87bebaac5c4b" async="" crossorigin="anonymous"></script><script async="" src="//www.google-analytics.com/analytics.js"></script>
-  <script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script><script id="facebook-jssdk" src="//connect.facebook.net/ja_JP/all.js#xfbml=1"></script> -->
-  <script type="text/javascript">
-    window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/pas-pol.jp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.6"}};
-    !function(a,b,c){
-        function d(a,b){ ... } 
-        function e(a){ ... } 
-        function f(a){ ... }
-        var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");
-        for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++) 
-            c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],
-            "flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);
-        c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,
-        c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},
-        b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):
-        (a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),
-        g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji))
-    }(window,document,window._wpemojiSettings);
-  </script>  
-  <script src="https://pas-pol.jp/wp-includes/js/wp-emoji-release.min.js?ver=4.9.6" 
-    type="text/javascript" defer="">
-  </script>
-
-  <link rel="https://api.w.org/" href="https://pas-pol.jp/wp-json/">
-  <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/dist/img/favicon.ico">
-
-  <script src="https://pas-pol.jp/wp-content/themes/pas-pol/dist/js/lib.js"></script>
-  <script src="https://pas-pol.jp/wp-content/themes/pas-pol/dist/js/script.js"></script>
-
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/front.css">
-    <?php wp_head(); ?>
-</head>
-
-<body class="p-index">
-
-  <header class="l-header pc-only">
-    <h1 class="m-site-logo" href="<?php echo home_url(); ?>">
-        <a class="m-site-logo__link" >
-        <img class="pc-site-logo__img" src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-pc@2x.webp' ); ?>" alt="PAS-POL -旅のモノづくりブランド-｜TABIPPO">
-        </a>
-    </h1>
-    <nav class="m-nav js-navigation">
-      <ul class="m-nav__item">
-        <li class="m-nav__list">
-          <a  class="m-nav__link" href="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-pc@2x.webp' ); ?>">TOP</a>
-        </li>
-        <li class="m-nav__list">
-          <a  class="m-nav__link" href="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-pc@2x.webp' ); ?>">PRODUCT</a>
-        </li>
-        <li class="m-nav__list">
-          <a  class="m-nav__link" href="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-pc@2x.webp' ); ?>">ABOUT</a>
-        </li>
-        <li class="m-nav__list">
-          <a  class="m-nav__link" href="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-pc@2x.webp' ); ?>">NEWS</a>
-        </li>
-        <li class="m-nav__list">
-          <a  class="m-nav__link" href="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-pc@2x.webp' ); ?>">CONTACT</a>
-        </li>
-      </ul>
-        <div class="m-nav-toggle js-navigationToggle">MENU</div>
-    </nav>
-  </header>
+<?php get_header();?>
 
 <div class="l-main-visual">
   <div class="m-main-visual js-mainVisual" style="height: 1084px;">
@@ -131,7 +48,6 @@
   </div>
 </div>
 
-
 <section class="l-section l-section--concept">
   <div class="l-container l-container--narrow">
     <div class="m-concept l-row">
@@ -172,54 +88,66 @@
       <div class="m-section__title l-row">
         <h1 class="m-section__title--text">PRODUCT</h1>
         <div class="m-section__title--button">
-          <a class="m-button m-button--more" href="https://pas-pol.jp/product/" >MORE</a>
+          <a class="m-button m-button--more" href="<?php echo esc_url(home_url('/archive-products.php')); ?>">MORE</a>
         </div>
       </div>
 
     <div class="m-product__list l-row">
       <article class="m-product__list-item l-grid-4">
-        <a class="m-product__list-item-link" href="https://pas-pol.jp/product/365-worldheritage/">
+        <a class="m-product__list-item-link" href="">
           <div class="m-product__list-item-image">
-          <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/wh_thumb2.webp' ); ?>" alt="プロダクトの画像1">          </div>
+            <img  src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/wh_thumb2.webp' ); ?>" 
+            width="484" height="640" alt="プロダクトの画像1">
+          </div>
           <h2 class="m-product__list-item-title">地球一周 365日 世界遺産絶景の旅</h2>
           <p class="m-product__list-item-description"></p>
         </a>
       </article>
       <article class="m-product__list-item l-grid-4">
-        <a class="m-product__list-item-link" href="https://pas-pol.jp/product/365-kyoto/">
+        <a class="m-product__list-item-link" href="">
           <div class="m-product__list-item-image">
-          <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/kyoto365_thumnail-1.webp' ); ?>" alt="プロダクトの画像2">          </div>
+            <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/kyoto365_thumnail-1.webp' ); ?>" 
+            width="484" height="640" alt="プロダクトの画像2">
+          </div>
           <h2 class="m-product__list-item-title">365日 京都 絶景の旅</h2>
           <p class="m-product__list-item-description"></p>
         </a>
       </article>
       <article class="m-product__list-item l-grid-4">
-        <a class="m-product__list-item-link" href="https://pas-pol.jp/product/365-hokkaido-calendar/">
+        <a class="m-product__list-item-link" href="">
           <div class="m-product__list-item-image">
-          <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/banner_thumb1.webp' ); ?>" alt="プロダクトの画像1">          </div>
+            <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/banner_thumb1.webp' ); ?>" 
+            width="484" height="640" alt="プロダクトの画像1">
+          </div>
           <h2 class="m-product__list-item-title">365日 北海道 絶景日めくりカレンダー</h2>
           <p class="m-product__list-item-description"></p>
         </a>
       </article>
       <article class="m-product__list-item l-grid-4">
-        <a class="m-product__list-item-link" href="https://pas-pol.jp/product/365-hokkaido/">
+        <a class="m-product__list-item-link" href="">
           <div class="m-product__list-item-image">
-          <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/thumb_hokkaido.webp' ); ?>" alt="プロダクトの画像1">          </div>
+            <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/thumb_hokkaido.webp' ); ?>" 
+            width="484" height="640" alt="プロダクトの画像1">
+          </div>
           <h2 class="m-product__list-item-title">365日 北海道 絶景の旅</h2>
           <p class="m-product__list-item-description"></p>
       </article>
       <article class="m-product__list-item l-grid-4">
-        <a class="m-product__list-item-link" href="https://pas-pol.jp/product/world-festival-guide/">
+        <a class="m-product__list-item-link" href="">
           <div class="m-product__list-item-image">
-          <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/thumb_fes.webp' ); ?>" alt="プロダクトの画像1">          </div>
+            <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/thumb_fes.webp' ); ?>"
+              width="484" height="640" alt="プロダクトの画像1">
+          </div>
           <h2 class="m-product__list-item-title">The World Festival Guide -海外の音楽フェス完全ガイド-</h2>
           <p class="m-product__list-item-description"></p>
         </a>
       </article>
       <article class="m-product__list-item l-grid-4">
-        <a class="m-product__list-item-link" href="https://pas-pol.jp/product/2000book/">
+        <a class="m-product__list-item-link" href="">
           <div class="m-product__list-item-image">
-          <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/banner_サムネイル21.webp' ); ?>" alt="プロダクトの画像1">          </div>
+            <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/banner_サムネイル21.webp' ); ?>" 
+            width="484" height="640" alt="プロダクトの画像1">
+          </div>
           <h2 class="m-product__list-item-title">この世界で死ぬまでにしたいこと2000</h2>
           <p class="m-product__list-item-description"></p>
         </a>
@@ -233,16 +161,16 @@
     <div class="m-section__title l-row">
         <h1 class="m-section__title--text">NEWS</h1>
         <div class="m-section__title--button">
-          <a class="m-button m-button--more" href="https://pas-pol.jp/news/" >MORE</a>
+          <a class="m-button m-button--more" href="<?php echo esc_url(home_url('/archive-news.php')); ?>">MORE</a>
         </div>
     </div>
 
     <div class="m-news__list">
         <article class="m-news__list--item">
-          <a class="m-news__list--item-link l-row" href="https://pas-pol.jp/2022/07/summer_postcard_2023/">
+          <a class="m-news__list--item-link l-row" href="">
           <div class="m-news__list--item-inner">
             <div class="m-news__list--item-image l-grid-5">
-                <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/summer2023_01.webp' ); ?>" alt="">
+                <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/summer2023_01.webp' ); ?>" alt="人気の絶景ポストカード｢夏｣画像" width="800" height="365">
             </div>
             <div class="m-news__list--item-text l-grid-7">
               <h2 class="m-news__list--item-title">2023年度夏の絶景ポストカード制作スタート！夏景色の写真を大募集！</h2>
@@ -253,10 +181,10 @@
           </a>
         </article>
         <article class="m-news__list--item">
-          <a class="m-news__list--item-link l-row" href="https://pas-pol.jp/2022/04/spring_postcard_2023/">
+          <a class="m-news__list--item-link l-row" href="">
           <div class="m-news__list--item-inner">
             <div class="m-news__list--item-image l-grid-5">
-                <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/spring2023-01.webp' ); ?>" alt="">
+                <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/spring2023-01.webp' ); ?>" alt="人気の絶景ポストカード｢春｣画像" width="800" height="365">
             </div>
             <div class="m-news__list--item-text l-grid-7">
               <h2 class="m-news__list--item-title">【2023年度も制作決定】人気の絶景ポストカード「春」の写真を大募集！</h2>
@@ -267,10 +195,10 @@
           </a>
         </article>
         <article class="m-news__list--item">
-          <a class="m-news__list--item-link l-row" href="https://pas-pol.jp/2021/11/postcard-2021-winter/">
+          <a class="m-news__list--item-link l-row" href="">
           <div class="m-news__list--item-inner">
             <div class="m-news__list--item-image l-grid-5">
-              <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/winter_postcard.webp' ); ?>" alt="">
+              <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/winter_postcard.webp' ); ?>" alt="人気の絶景ポストカード｢冬｣画像" width="800" height="365">
             </div>
             <div class="m-news__list--item-text l-grid-7">
               <h2 class="m-news__list--item-title">人気の絶景ポストカード制作中！「クリスマス」の絶景写真を大募集します</h2>
@@ -281,10 +209,10 @@
           </a>
         </article>
         <article class="m-news__list--item">
-          <a class="m-news__list--item-link l-row" href="https://pas-pol.jp/2021/10/postcard-2021-autumn/">
+          <a class="m-news__list--item-link l-row" href="">
           <div class="m-news__list--item-inner">
             <div class="m-news__list--item-image l-grid-5">
-                <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/th_autumn_postcard.webp' ); ?>" alt="">
+                <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/th_autumn_postcard.webp' ); ?>" alt="人気の絶景ポストカード｢春｣画像" width="800" height="365">
             </div>
             <div class="m-news__list--item-text l-grid-7">
               <h2 class="m-news__list--item-title">【募集期間延長】人気の絶景ポストカード製作中！日本の「秋」の絶景を大募集します</h2>
@@ -295,10 +223,10 @@
           </a>
         </article>
         <article class="m-news__list--item">
-          <a class="m-news__list--item-link l-row" href="https://pas-pol.jp/2021/09/paspol-ec-end/">
+          <a class="m-news__list--item-link l-row" href="">
           <div class="m-news__list--item-inner">
             <div class="m-news__list--item-image l-grid-5">
-              <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/paspol_closing-2.webp' ); ?>" alt="">
+              <img src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/paspol_closing-2.webp' ); ?>"  alt="人気の絶景ポストカード｢秋｣画像" width="800" height="365">
             </div>
             <div class="m-news__list--item-text l-grid-7">
               <h2 class="m-news__list--item-title">【セール情報あり】PAS-POLオンラインショップ閉店のお知らせ</h2>
@@ -309,10 +237,10 @@
           </a>
         </article>
         <article class="m-news__list--item">
-          <a class="m-news__list--item-link l-row" href="https://pas-pol.jp/2021/07/postcard-2021-summer/">
+          <a class="m-news__list--item-link l-row" href="">
             <div class="m-news__list--item-inner">
               <div class="m-news__list--item-image l-grid-5">
-                <img class="" src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/summer2023_01.webp'); ?>" alt="">
+                <img class="" src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/summer2023_01.webp'); ?>" alt="セール情報の画像" width="800" height="365">
               </div>
               <div class="m-news__list--item-text l-grid-7">
                 <h2 class="m-news__list--item-title">【募集期間延長】人気の絶景ポストカード製作中！日本の「夏」の絶景を大募集します</h2>
@@ -341,56 +269,10 @@
       <div class="m-share-buttons-item">
         <a class="m-button m-button--hatena" href="https://b.hatena.ne.jp/add?mode=confirm&amp;url=https://pas-pol.jp" target="_blank" onclick="ga('send', 'event', 'share_hatebu', 'click', 'https://pas-pol.jp');">Hatena Bookmark</a>
       </div>
+      <div class="m-share-buttons-item m-share-buttons-item--line">
+        <a class="m-button m-button--line" href="https://line.me/R/msg/text/?PAS-POL -旅のモノづくりブランド-｜TABIPPO%0D%0Ahttps://pas-pol.jp" onclick="ga('send', 'event', 'share_line', 'click', 'https://pas-pol.jp');">Send to LINE</a>
+      </div>
     </div>
   </div>
 </div>
-
-<div class="l-footer-nav">
-  <div class="l-container l-container--full">
-    <nav class="m-navigation m-navigation--center">
-      <ul class="m-navigation--item">
-        <li class="m-navigation--list">
-        <a class="m-navigation--link" href="">TOP</a>
-        </li>
-        <li class="m-navigation--list">
-        <a class="m-navigation--link" href="">PRODUCT</a>
-        </li>
-        <li class="m-navigation--list">
-        <a class="m-navigation--link" href="">ABOUT</a>
-        </li>
-        <li class="m-navigation--list">
-        <a class="m-navigation--link" href="">NEWS</a>
-        </li>
-        <li class="m-navigation--list">
-        <a class="m-navigation--link" href="">CONTACT</a>
-        </li>      
-      </ul>
-    </nav>
-  </div>
-</div>
-
-
-<footer class="l-footer">
-  <div class="l-container l-container--narrow">
-    <div class="l-footer-inner">
-      <h1 class="m-site-logo m-site-logo--small">
-          <a href="<?php echo home_url(); ?>">
-            <img class="m-site-logo__img" src="<?php echo esc_url (get_template_directory_uri() . '/assets/images/siteLogo-small@2x.webp' ); ?>" alt="PAS-POL -旅のモノづくりブランド-｜TABIPPO">
-          </a>
-        </h1>
-        <div class="m-copy-right">
-          <small class="m-copy-small">Copyright © 2024 PAS-POL -旅のモノづくりブランド-｜TABIPPO All rights reserved.</small>
-        </div>
-    </div>
-  </div>
-</footer>
-
-<link rel="stylesheet" id="metaslider-flex-slider-css" href="https://pas-pol.jp/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=3.1.1" type="text/css" media="all">
-<link rel="stylesheet" id="metaslider-public-css" href="https://pas-pol.jp/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=3.1.1" type="text/css" media="all">
-<script type="text/javascript" src="https://pas-pol.jp/wp-includes/js/wp-embed.min.js?ver=4.9.6"></script>
-<script type="text/javascript" src="https://pas-pol.jp/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
-<script type="text/javascript" src="https://pas-pol.jp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
-<script type="text/javascript" src="https://pas-pol.jp/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider-min.js?ver=3.1.1"></script>
-
-</body>
-</html>
+<?php get_footer(); ?>

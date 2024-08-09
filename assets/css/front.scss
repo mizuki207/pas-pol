@@ -1,17 +1,18 @@
 // レスポンシブ対応
 //ブレイクポイント
-$computer: 900px;
+$tablet: 780px;
 
-@mixin sp {
- @media screen and (max-width: $computer) {
+@mixin tablet {
+ @media screen and (max-width: $tablet) {
   @content;
  }
 }
 
+$sp: 500px;
 
-.pc-only {
- @include sp {
-  display: none;
+@mixin sp {
+ @media screen and (max-width: $sp) {
+  @content;
  }
 }
 
@@ -20,66 +21,68 @@ $computer: 900px;
  top: 0;
  left: 0;
  width: 100%;
- padding: 40px 0 0 0;
  z-index: 1;
  display: flex;
- gap: 30%;
- align-items: center;
-
- @include sp {
-  display: block;
- }
+ justify-content: space-between;
 }
 
 .m-site-logo {
+ margin-top: 50px;
  margin-left: 7%;
 
- &__link {
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
+ // タブレット用のスタイル
+ @include tablet {
+  display: none;
  }
 
- &__img {
-  width: 90px;
-  height: 89px;
+ &--link {
+  display: block;
+ }
+
+ &--img {
+  width: 266px;
+  height: 72px;
  }
 }
 
-.pc-site-logo__img {
+.m-navigation {
  display: flex;
- width: 266px;
- height: 72px
-}
+ margin-top: 75px;
+ margin-right: 7%;
 
-.m-nav {
- display: flex;
-
- @include sp {
+ @include tablet {
+  display: none;
   margin: 0;
  }
 
- &__item {
+ &--lists {
   display: flex;
-  justify-content: center;
+  align-items: center;
   gap: 40px;
+  list-style: none;
  }
 
- &__list {
-  display: inline-block;
-  vertical-align: top;
-  font-size: 1rem;
-  letter-spacing: normal;
-  word-spacing: normal;
+ &--item {
+  @include tablet {
+   display: block;
+   margin: 0;
+   border-top: 1px solid #fff;
+  }
  }
 
- &__link {
+ &--link {
   color: #fff;
   font-size: 14px;
   font-family: "Gill Sans Std Book", sans-serif;
   letter-spacing: 0.1em;
   padding-bottom: 8px;
   border-bottom: 2px solid transparent;
+
+  @include tablet {
+   display: block;
+   padding: 1.2em 7% 1em 7%;
+   border-bottom: none;
+  }
  }
 
  &-toggle {
@@ -88,7 +91,7 @@ $computer: 900px;
   color: #656c6e;
   font-family: "Gill Sans Std Book", sans-serif;
   letter-spacing: 0.1em;
-  background: url(/assets/images/navigation-toggle@2x.webp) no-repeat;
+  background: url(../images/navigation-toggle@2x.webp) no-repeat;
   background-color: #fff;
   background-size: 15px 11px;
   background-position: 93% 50%;
@@ -96,12 +99,10 @@ $computer: 900px;
   height: 45px;
   line-height: 45px;
 
-  @include sp {
+  @include tablet {
    display: block;
   }
-
  }
-
 }
 
 
@@ -114,7 +115,7 @@ $computer: 900px;
  position: relative;
  overflow: hidden;
 
- @include sp {
+ @include tablet {
   margin-top: 50px;
   height: 340px;
  }
@@ -127,10 +128,25 @@ $computer: 900px;
 
  &-logo {
   display: none;
+
+  @include tablet {
+   display: block;
+   overflow: hidden;
+   text-indent: 100%;
+   white-space: nowrap;
+   background: url(../images/siteLogo-sp@2x.webp) no-repeat;
+   width: 197px;
+   height: 178px;
+   background-size: 197px 178px;
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  }
  }
 
  &-arrow {
-  background: url("/assets/images/mainVisual-arrow@2x (1).png") no-repeat;
+  background: url("../images/mainVisual-arrow@2x (1).png") no-repeat;
   width: 22px;
   height: 13px;
   background-size: 22px 13px;
@@ -146,7 +162,7 @@ $computer: 900px;
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("/assets/images/mainVisual-overlay@2x (1).png") no-repeat;
+  background: url("../images/mainVisual-overlay@2x (1).png") no-repeat;
   background-size: contain;
   background-position: 0 bottom;
  }
@@ -166,8 +182,17 @@ $computer: 900px;
  padding-top: 110px;
  padding-bottom: 110px;
 
+ @include tablet {
+  padding-top: 70px;
+  padding-bottom: 70px;
+ }
+
  &--product {
   background-color: #ffff;
+
+  @include sp {
+   position: relative;
+  }
  }
 }
 
@@ -178,6 +203,10 @@ $computer: 900px;
  overflow: hidden;
  box-sizing: content-box;
  padding: 0 7%;
+
+ @include tablet {
+  padding: 0 10%;
+ }
 
  &--narrow {
   max-width: 786px;
@@ -202,10 +231,21 @@ $computer: 900px;
   line-height: 1;
   font-family: "Gill Sans Std Book", sans-serif;
   letter-spacing: 0.1em;
+
+  @include sp {
+   padding-top: 70px;
+   padding-bottom: 70px;
+  }
  }
 
  &__title--button {
-  float: right;
+  @include sp {
+   margin-top: 20px;
+   position: absolute;
+   bottom: 1%;
+   left: 30%;
+
+  }
  }
 }
 
@@ -222,6 +262,11 @@ $computer: 900px;
   letter-spacing: 0.1em;
   margin: 0 auto;
   white-space: nowrap;
+
+  @include tablet {
+   text-align: left;
+   margin: 0;
+  }
  }
 
  &--index {
@@ -235,6 +280,13 @@ $computer: 900px;
   max-width: 550px;
   font-size: 20px;
   margin: 70px auto 0 auto;
+
+  @include tablet {
+   width: 100%;
+   max-width: none;
+   margin-top: 30px;
+   margin-left: 0;
+  }
  }
 
  &-read--index {
@@ -249,12 +301,15 @@ $computer: 900px;
 
  &__site-logo {
   margin: 35px 80px;
+
+  @include tablet {
+   margin-left: 0;
+  }
  }
 
  &__img {
   width: 211px;
   height: 54px;
-
  }
 }
 
@@ -273,6 +328,14 @@ $computer: 900px;
   display: flex;
   justify-content: space-between;
   gap: 65%;
+
+  @include tablet {
+   gap: 40%;
+  }
+
+  @include sp {
+   display: block;
+  }
  }
 
  &__title--text {
@@ -286,6 +349,13 @@ $computer: 900px;
   background: url(../images/sectionTitle-underLine@2x.webp) no-repeat;
   background-size: 68px 8px;
   background-position: 0 bottom;
+
+  @include sp {
+   width: 100%;
+   text-align: center;
+   background-position: 50% bottom;
+   margin-bottom: 25px;
+  }
  }
 }
 
@@ -314,6 +384,12 @@ $computer: 900px;
  margin: 10% auto;
  padding: 0;
  list-style: none;
+
+ @include tablet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
 }
 
 // 各アイテムのスタイル
@@ -322,22 +398,62 @@ $computer: 900px;
  margin: 10px;
  box-sizing: border-box;
 
+ @include tablet {
+  width: 100%;
+  margin-top: 30px;
+  padding: 0 !important;
+ }
+
+ @include sp {
+  margin-top: 30px;
+ }
+
  &-link {
   display: block;
   text-decoration: none;
   color: inherit;
+
+  @include tablet {
+   display: flex;
+   gap: 5%
+  }
+
+  @include sp {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+ }
+
+ &-image {
+  @include tablet {
+   width: 100%;
+  }
  }
 
  &-image img {
-  width: 100%;
+  width: 188px;
   height: auto;
   display: block;
   border-radius: 8px;
+
+  @include sp {
+   width: 100%;
+   height: 469px;
+  }
+
  }
 
  &-title {
   font-size: 1.2em;
   margin: 10px 0;
+
+  @include tablet {
+   font-size: 20px;
+   padding-right: 0;
+   margin-top: 0;
+   padding-top: 20px;
+  }
  }
 
  &-description {
@@ -350,13 +466,56 @@ $computer: 900px;
 
 .l-section--news {
  background-color: #F6F6F6;
+ position: relative;
+ padding: 100px 0;
+ margin: 30px 0;
 
  // ニュースの各リストスタイル
  .m-news__list {
   margin-top: 60px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
+
+  &--item-title {
+   font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 0.5rem;
+   color: #13191B;
+  }
+
+  &--item-description {
+   flex: 1 1 auto;
+   font-size: 13px;
+   color: #666;
+
+   @include sp {
+    display: none;
+   }
+  }
+
+  &--item-inner {
+   width: 846px;
+   display: flex;
+   gap: 5%;
+
+   @include sp {
+    flex-direction: column;
+   }
+  }
+
+  &--item-text {
+   flex: 1 1 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+  }
+
+  &--item-date {
+   font-size: 12px;
+   color: #999;
+  }
 
   &--item {
    overflow: hidden;
@@ -365,65 +524,56 @@ $computer: 900px;
    flex-direction: column;
    width: 846px;
 
-   &-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+   @include sp {
+    margin-top: 15px;
+   }
+  }
+
+  &--item-image {
+   flex: 0 0 auto;
+   overflow: hidden;
+
+   img {
+    width: 25%;
+    height: auto;
+    vertical-align: top;
    }
 
-   &-description {
-    flex: 1 1 auto;
-    font-size: 12px;
-    color: #666;
+   @include tablet {
+    width: 228px;
+    height: 128px;
    }
 
-   &-link {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+   @include sp {
+    width: 100%;
+    height: 196px;
+   }
+  }
 
-    &:hover {
-     .m-news__list--item-image img {
-      transform: scale(1.05);
-     }
+  &--item-date {
+   font-size: 12px;
+   color: #13191B;
+  }
 
-     .m-news__list--item-text {
-      background-color: #f0f0f0;
-     }
+  &--item-link {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+
+   &:hover {
+    .m-news__list--item-image img {
+     transform: scale(1.05);
     }
-   }
 
-   &-inner {
-    display: flex;
-    gap: 5%;
-   }
-
-   &-image {
-    flex: 0 0 auto;
-    overflow: hidden;
-
-    img {
-     width: 322px;
-     height: 181px;
-     height: auto;
-     transition: transform 0.3s ease;
-    }
-   }
-
-   &-text {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-
-    &-date {
-     font-size: 12px;
-     color: #999;
+    .m-news__list--item-text {
+     background-color: #f0f0f0;
+     color: #13191B;
     }
    }
   }
  }
 }
+
 
 // シェアのスタイル
 
@@ -457,7 +607,16 @@ $computer: 900px;
 .m-share-buttons {
  display: flex;
  text-align: center;
+ flex-wrap: wrap;
  justify-content: center;
+ gap: 10px;
+
+ /* スマホ対応のために追加 */
+ @include tablet {
+  flex-direction: column;
+  align-items: center;
+
+ }
 
  &-item {
   display: inline-block;
@@ -465,8 +624,25 @@ $computer: 900px;
   font-size: 1rem;
   letter-spacing: normal;
   word-spacing: normal;
-  margin: 0 15px;
+  width: 162px;
+
+  @include sp {
+   margin: 5px 0;
+   padding: 0 5px;
+   width: 49.5%;
+  }
+
+  &--line {
+   @include sp {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+   }
+  }
  }
+
 }
 
 .m-button {
@@ -495,9 +671,19 @@ $computer: 900px;
   color: #70bdd3;
   border-color: #70bdd3;
  }
+
+ &--line {
+  color: #8ec09d;
+  border-color: #8ec09d;
+
+  @include tablet {
+   width: 163px;
+   font-size: 13px;
+  }
+ }
 }
 
-// 
+
 .l-container--full {
  max-width: 100%;
  padding: 0;
@@ -540,9 +726,9 @@ $computer: 900px;
 
 .l-footer {
  background-color: #656c6e;
- padding: 35px 0;
 
  &-inner {
+  padding: 35px 0;
   display: flex;
   justify-content: space-between;
  }
