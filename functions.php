@@ -42,6 +42,17 @@ if (is_singular('product') || is_post_type_archive('product')) {
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
 
+function my_custom_scripts() {
+  // WP Embed
+  wp_enqueue_script('wp-embed', 'https://pas-pol.jp/wp-includes/js/wp-embed.min.js?ver=4.9.6', array(), '4.9.6', true);
+  // Flexslider
+  wp_enqueue_script('flexslider', 'https://pas-pol.jp/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider-min.js?ver=3.1.1', array('jquery'), '3.1.1', true);
+}
+
+// アクションフックで関数を呼び出す
+add_action('wp_enqueue_scripts', 'my_custom_scripts');
+
+
 // カスタム投稿タイプ news を登録
 // function create_news_post_type() {
 // register_post_type('news',
