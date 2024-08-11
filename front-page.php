@@ -161,8 +161,8 @@
     <div class="m-section__title l-row">
         <h1 class="m-section__title--text">NEWS</h1>
         <div class="m-section__title--button">
-          <a class="m-button m-button--more" href="<?php echo esc_url(home_url('/archive-news.php')); ?>">MORE</a>
-        </div>
+        <a href="<?php echo get_post_type_archive_link('/archive-news.php'); ?>">MORE</a>
+      </div>
     </div>
 
     <div class="m-news__list">

@@ -74,7 +74,7 @@
       <a class="m-navigation--link" href="<?php echo esc_url(home_url('')); ?>">ABOUT</a>
       </li>
       <li class="m-navigation--item">
-      <a class="m-navigation--link" href="<?php echo esc_url(home_url('/archive-news.php')); ?>">NEWS</a>
+      <a class="m-navigation--link" href="<?php echo get_post_type_archive_link('news'); ?>">NEWS</a>
       </li>
       <li class="m-navigation--item">
       <a class="m-navigation--link" href="<?php echo esc_url(home_url('')); ?>">CONTACT</a>
