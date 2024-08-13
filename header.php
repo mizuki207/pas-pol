@@ -68,7 +68,7 @@
       <a class="m-navigation--link" href="<?php echo home_url(); ?>">TOP</a>
       </li>
       <li class="m-navigation--item">
-      <a class="m-navigation--link" href="<?php echo esc_url(home_url('/archive-products.php')); ?>">PRODUCT</a>
+      <a class="m-navigation--link" href="<?php echo get_post_type_archive_link('product'); ?>">PRODUCT</a>
       </li>
       <li class="m-navigation--item">
       <a class="m-navigation--link" href="<?php echo esc_url(home_url('')); ?>">ABOUT</a>

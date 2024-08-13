@@ -1,8 +1,0 @@
-"liveSassCompile.settings.formats": [
-    {
-      "format": "compressed", // コンパイル時のフォーマットを圧縮に設定
-      "savePath": "~/../css", // 保存パスを設定
-      // "savePath": "", // 保存パスの設定（コメントアウト）
-      "extensionName": ".css" // 拡張子を.cssに設定
-    }
-  ],
