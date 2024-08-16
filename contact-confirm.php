@@ -1,0 +1,1 @@
+<?php echo do_shortcode('[contact-form-7 id="96e2acc" title="お問い合わせ(確認画面)"]'); ?>

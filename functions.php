@@ -27,6 +27,7 @@ if (is_front_page()) {
     wp_enqueue_style('front-style', $theme_directory . '/assets/css/front.css', array('common-style'));
     wp_enqueue_script('front-script', $theme_directory . '/assets/js/front.js', array('jquery'), null, true);
 }
+// contact.php のみで読み込むcssとJavaScript
 
   // news 投稿タイプ用のCSSとJavaScript
 if (is_singular('news') || is_post_type_archive('news')) {
