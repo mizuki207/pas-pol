@@ -77,7 +77,7 @@
       <a class="m-navigation--link" href="<?php echo get_post_type_archive_link('news'); ?>">NEWS</a>
       </li>
       <li class="m-navigation--item">
-      <a class="m-navigation--link" href="<?php echo esc_url(home_url('')); ?>">CONTACT</a>
+      <a class="m-navigation--link" href="<?php echo esc_url(home_url('contact')); ?>">CONTACT</a>
       </li>
     </ul>
     <div class="m-navigation-toggle js-navigation-toggle">MENU</div>
